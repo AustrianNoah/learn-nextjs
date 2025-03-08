@@ -13,6 +13,8 @@ export default function NavLinks() {
 
     const pathname = usePathname();
 
+    // @ts-ignore
+    // @ts-ignore
     return (
         <>
             {links.map((link) => {
